@@ -7,6 +7,7 @@
 
 // 2. Save the substring "Friend" from the string "Hello Friend"
 const greeting = "Hello Friend"
+console.log(greeting.slice(6,12))
 
 // 3. Using 5 or more of the following words, create a template literal that makes a legible sentence.
 //    Do not create your own words, use the existing ones below!
@@ -34,7 +35,11 @@ const word21 = "and";
 const word22 = "also";
 const word23 = "like"; 
 
+console.log(`${word1}, ${word19} name ${word20} Sarah, ${word21} ${word17} ${word23} ${word18} ${word13} ${word9}`)
+
 // 4. Given the string of your full name get your initials.
+const myName = "Sarah Johnson"
+console.log(myName[0]+ myName[6])
 
 
 // 5. Get the 5th character from the following string: 'Hello World'
@@ -44,15 +49,21 @@ console.log(greeting1[5])
 // 6. Find the index of the dash from 'Coding-Time!'
 const coding = 'Coding-Time!'
 
+console.log(coding.indexOf("'"))
+
 // 7. Write code to grab the final letter from a any string.
 const string = "string"
 
 // 8. Write code to grab the first 3 letters from a string. 
+const first = string.slice(0, 3)
 
+console.log(first)
 
 // 9. Turn the following string into an array of words: 'This-is-a-sentence';
 const sentence1 = 'This-is-a-sentence'
+console.log(sentence1.split('-'))
 
 // 10. Make the string of 12 from the following two numbers:
 let one = 1;
 let two = 2;
+console.log(one + two)
