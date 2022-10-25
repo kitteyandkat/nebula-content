@@ -66,4 +66,4 @@ console.log(sentence1.split('-'))
 // 10. Make the string of 12 from the following two numbers:
 let one = 1;
 let two = 2;
-console.log(one + two)
+console.log('1' + '2')
