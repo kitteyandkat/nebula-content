@@ -1,11 +1,17 @@
 // // 1.   Declare a for loop that starts at 0, goes until 30, and increments by 1
 // //      Each loop it should log to the console 'the current index is _'
 
+for(let i = 0; i < 30; i++) {
+    console.log(i);
+}
 
 
 // // 2.   Declare a for loop that starts at 1, goes until 10, and increments by 2
 // //      Each loop it should log to the console the current index
 
+for(let i = 1; i < 10; i+=2) {
+    console.log(i);
+}
 
 
 // // 3.   Create an array with your top 5 celebrity names in it. 
