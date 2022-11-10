@@ -1,0 +1,27 @@
+/* Cascading Style Sheet */
+
+body {
+    background-color: red;
+}
+
+body p {
+    color: blue;
+}
+.bodyParagraphs {
+    color: white;
+}
+
+body {
+    background-color: blue
+    width: 100vw;
+    height: 100 vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallBox{
+    width: 100px;
+    height: 100px
+    background-color: red;
+}
