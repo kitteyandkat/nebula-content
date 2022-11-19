@@ -10,8 +10,11 @@
     <div class="container">
         <div class="grid">
             <script>  for (let i = 0; i <= 100; i++) {
-                    ('<div class="cell"></div>').appendChild("grid");
+                let element = document.createElement('cell')
+                   document.querySelector(".grid").appendChild(element)
+                   element.style.border = "thick solid black"
                 }
+            
             </script>
         </div>
     </div>
