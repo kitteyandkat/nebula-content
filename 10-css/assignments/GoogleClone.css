@@ -1,37 +1,43 @@
-
 html {
-    background: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg) no-repeat center fixed;
-    background-size: cover;
+    background: white
   }
 
   body {margin-bottom:300px;}
-  .fixed {
+  .lefthead {
     left: 0;
     display:flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(77, 39, 97, 0.626);
     position: sticky;
     top: 0;
     width: 100%;
   }
+ 
 
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: sans-serif;
   }
   
-  li a:hover:not(.fixedlist) {
-    background-color: #111;
+  li a:hover{
+    text-decoration: underline;
   }
 
-  img:hover {
-    opacity: 0.5;
+  .logo{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+
+  .searchbar{
+    position:absolute;
+    top: 40%;
+    left: 45%;
   }
