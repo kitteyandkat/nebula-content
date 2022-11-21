@@ -1,0 +1,17 @@
+.square{
+    width:100px;
+    height:100px;
+    background-color: red;
+}
+.activeSquare{
+    background-color: blue;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.field{
+    top: 60%
+}
