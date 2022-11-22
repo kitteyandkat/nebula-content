@@ -1,37 +1,48 @@
-
 html {
-    background: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg) no-repeat center fixed;
-    background-size: cover;
-  }
-
-  body {margin-bottom:300px;}
-  .fixed {
-    left: 0;
-    display:flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(77, 39, 97, 0.626);
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
-
+  background: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg) no-repeat center fixed;
+  background-size: cover;
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: sans-serif;
-  }
-  
-  li a:hover:not(.fixedlist) {
-    background-color: #111;
-  }
+}
 
-  img:hover {
-    opacity: 0.5;
-  }
+body {
+  margin-bottom: 300px;
+  color: white;
+}
+
+.about{
+  background: rgba(22, 21, 22, 0.313);
+  padding-bottom: 100px;
+  margin-top: 30px;
+  
+}
+
+.fixed {
+  left: 0;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(77, 39, 97, 0.626);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+li a:hover:not(.fixedlist) {
+  background-color: #111;
+}
+
+img:hover {
+  opacity: 0.5;
+}
