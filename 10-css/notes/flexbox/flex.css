@@ -1,0 +1,14 @@
+.flexcontainer {
+    border: 1px solid #000;
+    height: 100px;
+    display: flex;
+}
+
+.flexItem{
+    width: 75px;
+    height 75px;
+    background-color: #000;
+    margin-left: 10rem;
+}
+
+.flexItem1 {}

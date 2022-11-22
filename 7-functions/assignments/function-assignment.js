@@ -22,5 +22,19 @@ function repeatStr (n, s) {
 
 // https://www.codewars.com/kata/55a2d7ebe362935a210000b2
 
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      let min = Infinity;
+      for (let i=0;i<args.length;i++) {
+        if (args[i] < min) {
+          min = args[i]
+        }
+      }
+      return min
+    }
+  }
+
 // https://www.codewars.com/kata/5a2be17aee1aaefe2a000151
+
+
 // https://www.codewars.com/kata/544675c6f971f7399a000e79

@@ -29,19 +29,35 @@ console.log(car.color)
 car.color = 'Black'
 
 // 6.   Using bracket-notation update a property on the vehicle. 
+car['Year'] = 2023
+console.log(car.Year)
+// 7.   Using dot-notation update a property on the vehicle. 
 car.InsuredDrivers[1] = 'Abraham'
 console.log(car.InsuredDrivers)
-// 7.   Using dot-notation update a property on the vehicle. 
-
 
 // 8.   Create a method for turning your vehicle on
+car.engine = ['On', 'Off']
 
+    if(car.engine === "On"){
+        console.log("Engine On");
+      }
+    
+      if(car.engine === 'Off'){
+        console.log("Engine Off");
+      }
+
+function EngineStart(){
+    return car.engine[0]
+}
 
 // 9.   Create a method for turning your vehicle off
-
+function EngineOff(){
+    return car.engine[1]
+}
 
 //10.   
 //      a. Check if your vehicle is on (it should be off)
+console.log(car.engine)
 //      b. Start your vehicle
 //      c. Check if your vehicle is on (it should be on)
 //      d. Stop your vehicle
