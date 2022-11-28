@@ -2,28 +2,49 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="GoogleClone.css">
-    <title> Google Clone </title>
+        <link rel="stylesheet" href="GoogleClone.css">
+        <title> Google Clone </title>
+        <script defer>
+                function myFunction() {
+                        const element = document.querySelector(':root');
+                        const dmText = document.querySelector("li")
+                        const dmImage = document.querySelector("img")
+                        const dmSearch = document.querySelector("googleSearch")
+                        const dmLucky = document.querySelector("lucky")
+                        element.classList.toggle("dark-mode");
+                        dmText.classList.toggle("dark-mode-text");
+                        dmImage.classList.toggle("dark-mode-logo");
+                        dmLucky.classList.toggle("dark-mode-lucky");
+                        dmSearch.classList.toggle("dark-mode-search");
+                }
+        </script>
 </head>
 
 <body>
-    <div class="main-container">
-        <ul class="lefthead">
-            <li><a
-                    href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-            </li>
-            <li><a
-                    href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-            </li>
-            <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-            <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
-        </ul>
-        <div class='logo'> <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'
-                height="100px" /></div>
-        <div class='searchbar'><input type="text" name="search" placeholder="Search.."></div>
+        <div class="main-container">
+                <ul class="navBar">
+                        <li class="about"><a
+                                        href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                        </li>
+                        <li class="store"><a
+                                        href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                        </li>
+                        <li class="gmail"><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                        <li class="images"><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+                        <li class="darkMode"><a onclick="myFunction()">Dark Mode</a></li>
 
-        <!-- <div class='signin'><button onclick="location.href='https://accounts.google.com/" type="button"> Sign
-                In</button></div> -->
+                </ul>
+                <div class='logo'> <img
+                                src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'
+                                height="100px" /></div>
+                <div class='searchbar'><input type="text" name="search"></div>
+                <div class="searchbuttons">
+                        <button class="googleSearch" type="button">Google Search</button>
+                        <button class="lucky" type="button">I'm Feeling Lucky</button>
+                </div>
+
+                <!-- <div class='signin'><button onclick="location.href='https://accounts.google.com/" type="button"> Sign
+                        In</button></div> -->
 
 </body>
 
