@@ -9,13 +9,10 @@
                         const element = document.querySelector(':root');
                         const dmText = document.querySelector("li")
                         const dmImage = document.querySelector("img")
-                        const dmSearch = document.querySelector("googleSearch")
-                        const dmLucky = document.querySelector("lucky")
                         element.classList.toggle("dark-mode");
                         dmText.classList.toggle("dark-mode-text");
                         dmImage.classList.toggle("dark-mode-logo");
-                        dmLucky.classList.toggle("dark-mode-lucky");
-                        dmSearch.classList.toggle("dark-mode-search");
+                
                 }
         </script>
 </head>
@@ -40,7 +37,7 @@
                 <div class='searchbar'><input type="text" name="search"></div>
                 <div class="searchbuttons">
                         <button class="googleSearch" type="button">Google Search</button>
-                        <button class="lucky" type="button">I'm Feeling Lucky</button>
+                        <button class="lucky" type="button" onclick="location.href='http://www.google.com/search?q=term&btnI'"> I'm Feeling Lucky</button>
                 </div>
 
                 <!-- <div class='signin'><button onclick="location.href='https://accounts.google.com/" type="button"> Sign
