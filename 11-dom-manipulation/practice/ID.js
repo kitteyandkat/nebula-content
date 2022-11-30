@@ -10,15 +10,35 @@ The goal is to have someone to fill in their 'ID card info'
     - [ ] Style a div to look like an ID card - curved corners, an image (start with a  placeholder image)
 */
 
-let name = document.querySelector('.name')
-let nameValue = document.querySelector('.idName')
 let button = document.querySelector('.submit')
+let name = document.querySelector('.name')
+let lName = document.querySelector('.lName')
+let number = document.querySelector('.number')
+let address = document.querySelector('.address')
+let funFact = document.querySelector('.funFact')
+let nameValue = document.querySelector('.idName')
+let lNameValue = document.querySelector('.idLName')
+let numberValue = document.querySelector('.idNumber')
+let addressValue = document.querySelector('.idAddress')
+let funFactValue = document.querySelector('.idFunFact')
 
 button.addEventListener('click', e =>{
     nameValue.innerText=`${name.value}`
+    lNameValue.innerText=`${lName.value}`
+    numberValue.innerText=`${number.value}`
+    addressValue.innerText=`${address.value}`
+    funFactValue.innerText=`${funFact.value}`
     console.log(nameValue)
-    let info = document.querySelector('.iDCard')
-    info.appendChild(nameValue)
+    console.log(lNameValue)
+    console.log(numberValue)
+    console.log(addressValue)
+    console.log(funFactValue)
+    // let info = document.querySelector('.submittedText')
+    // info.appendChild(nameValue)
+    // info.appendChild(lNameValue)
+    // info.appendChild(numberValue)
+    // info.appendChild(addressValue)
+    // info.appendChild(funFactValue)
 })
 
 // nameFill.addEventListener('input', (e) => {

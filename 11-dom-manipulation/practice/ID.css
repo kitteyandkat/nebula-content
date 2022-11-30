@@ -1,9 +1,10 @@
 .mainContainer {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .iDInfo {
     display: flex;
     flex-direction: column;
@@ -44,6 +45,7 @@
     border-radius: 4px;
     resize: vertical;
 }
+
 .funFact {
     width: 300px;
     padding: 12px;
@@ -61,10 +63,11 @@
     border: 10px solid #ccc;
     border-radius: 30px;
     resize: vertical;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-#display-image{
+
+#display-image {
     width: 180px;
     height: 180px;
     border: 1px solid rgba(190, 167, 167, 0.5);
@@ -73,10 +76,37 @@
     margin-left: 10px;
     /* margin-right: auto; */
     background-size: cover;
-  }
+}
 
-.idLName{
-    margin-left: 30px;
-    margin-top: 50px;
+.submittedText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.idName {
+   padding-top: 5px;
 
 }
+
+.idLName {
+    padding-top: 5px;
+
+}
+
+.idNumber {
+    font-size: 25px;
+    color: rgba(73, 67, 67, 0.633)
+
+}
+
+.idAddress {
+    padding-top: 5px;
+}
+
+.idFunFact {
+    padding-top: 5px;
+    text-transform: none;
+} 
