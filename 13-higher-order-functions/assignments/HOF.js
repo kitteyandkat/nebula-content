@@ -47,7 +47,7 @@ function calculateAll (input){
 
 
 
-
+    }
 
 // 3.   Write a function that takes in a string and performs some form of manipulation on it
 //          Ex: modify(yeller, 'I need a nap') => I NEED A NAP!!!
