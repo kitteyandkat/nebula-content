@@ -88,7 +88,8 @@ function backwardsArr(arr) {
     }
     return arrReversed
 }
-
+ 
+ //o(n)
 
 // 7.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
@@ -103,17 +104,23 @@ function multiplyAll(arr1, arr2) {
     }
     return total
 }
+
+// o(n^2) 
 // 8.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums = [10,20,30,40];
 nums.push(50);
 
+//o(1)
+
 // 9.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums2 = [10,20,30,40];
 nums.unshift(0);
+
+//o(1)
 
 // 10.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
@@ -125,3 +132,5 @@ function logTime(arr) {
     }
     return numberOfLoops
 }
+
+//o(1)
